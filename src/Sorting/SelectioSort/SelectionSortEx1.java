@@ -10,13 +10,12 @@ public class SelectionSortEx1 {
     }
 
     public static void selectionSort(int[] arr) {
-        int n = arr.length;
 
         // One by one move boundary of unsorted subarray
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             // Find the minimum element in unsorted array
             int minIndex = i;
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i + 1; j < arr.length; j++) {
                 if (arr[j] < arr[minIndex]) {
                     minIndex = j;
                 }

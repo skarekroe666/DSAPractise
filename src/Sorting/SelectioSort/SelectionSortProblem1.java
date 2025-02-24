@@ -13,8 +13,8 @@ public class SelectionSortProblem1 {
         for (int i = 0; i < arr.length; i++) {
 
             int last = arr.length - i - 1;
-            int maxIndex = getLowest(arr, last);
-            swap(arr, maxIndex, last);
+            int minIndex = getLowest(arr, last);
+            swap(arr, minIndex, last);
         }
     }
 
