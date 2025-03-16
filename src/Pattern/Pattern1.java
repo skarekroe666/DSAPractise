@@ -2,6 +2,8 @@ package Pattern;
 
 public class Pattern1 {
     public static void main(String[] args) {
+//        pattern1(4);
+        System.out.println();
         pattern2(4);
     }
 

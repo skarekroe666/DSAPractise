@@ -2,8 +2,6 @@ package Sorting.CycleSort;
 
 //https://leetcode.com/problems/missing-number/description/
 
-import java.util.Arrays;
-
 public class CycleSortProblem1 {
     public static void main(String[] args) {
 //        int[] arr = {3, 0, 1};
