@@ -15,12 +15,12 @@ public class BinarySearch {
 
         int m = s + (e - s) / 2;
 
-        if (arr[m] == target){
-            return m;
-        }
         if (target < arr[m]){
             return bs(arr, target, s, m - 1);
+        } else if (target > arr[m]) {
+            return bs(arr, target, m + 1, e);
+        }else {
+            return m;
         }
-        return bs(arr, target, m + 1, e);
     }
 }
